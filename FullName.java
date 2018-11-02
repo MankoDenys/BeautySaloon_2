@@ -1,0 +1,7 @@
+public enum FullName {
+    IVANOVA_IVANA,
+    KOLYADA_DARIYA,
+    STASHKO_VERONIKA,
+    SHANDA_NATALIA,
+    STEHINA_MARYANA;
+}
