@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Account</OriginalElement>
+  <nodes>
+    <node x="988.9107142857142" y="1463.0">Order</node>
+    <node x="772.9107142857142" y="1528.5">Account</node>
+    <node x="929.4666170634922" y="1827.0">User</node>
+    <node x="1192.8587425595235" y="788.0">Rating</node>
+    <node x="1230.9107142857142" y="1151.0">Specialist</node>
+    <node x="990.7083333333333" y="2190.0">SaloonRunner</node>
+    <node x="151.50435267857165" y="1118.0">Service</node>
+    <node x="368.0" y="532.0">TimeSlot</node>
+    <node x="106.66071428571422" y="544.0">GeneralNameService</node>
+    <node x="1045.2749999999999" y="11.0">java.io.Serializable</node>
+    <node x="652.4999999999999" y="745.0">NameService</node>
+    <node x="1557.0045758928568" y="822.0">Profession</node>
+    <node x="890.7749999999999" y="101.0">java.lang.Enum</node>
+    <node x="1386.0045758928568" y="822.0">FullName</node>
+    <node x="346.5" y="854.5">Schedule</node>
+    <node x="863.2749999999999" y="0.0">java.lang.Comparable</node>
+    <node x="10.5" y="832.0">CategoryService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SaloonRunner" target="NameService">
+      <point x="-35.208333333333485" y="-25.5" />
+      <point x="1039.9999999999998" y="2140.0" />
+      <point x="762.4107142857142" y="2140.0" />
+      <point x="762.4107142857142" y="1098.0" />
+      <point x="765.8333333333333" y="1098.0" />
+      <point x="45.33333333333337" y="146.5" />
+    </edge>
+    <edge source="Specialist" target="FullName">
+      <point x="40.14285714285711" y="-114.5" />
+      <point x="1411.5535714285713" y="1068.0" />
+      <point x="1461.5045758928568" y="1068.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="SaloonRunner" target="CategoryService">
+      <point x="-63.375" y="-25.5" />
+      <point x="1011.8333333333333" y="2160.0" />
+      <point x="105.71790674603153" y="2160.0" />
+      <point x="105.71790674603153" y="1098.0" />
+      <point x="63.0" y="1098.0" />
+      <point x="-105.0" y="59.5" />
+    </edge>
+    <edge source="Specialist" target="Profession">
+      <point x="120.42857142857133" y="-114.5" />
+      <point x="1491.8392857142856" y="1088.0" />
+      <point x="1623.5045758928568" y="1088.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="SaloonRunner" target="User">
+      <point x="7.0416666666667425" y="-25.5" />
+      <point x="1082.25" y="2120.0" />
+      <point x="1093.7166170634923" y="2120.0" />
+      <point x="54.75" y="136.5" />
+    </edge>
+    <edge source="User" target="Order">
+      <point x="31.28571428571422" y="-136.5" />
+      <point x="1070.2523313492065" y="1787.0" />
+      <point x="1127.0357142857142" y="1787.0" />
+      <point x="27.625" y="147.0" />
+    </edge>
+    <edge source="Schedule" target="TimeSlot">
+      <point x="-71.5" y="-37.0" />
+      <point x="418.0" y="725.0" />
+      <point x="428.75" y="725.0" />
+      <point x="-60.75" y="81.5" />
+    </edge>
+    <edge source="Service" target="Schedule">
+      <point x="83.0" y="-147.5" />
+      <point x="525.0043526785716" y="1098.0" />
+      <point x="561.0" y="1098.0" />
+      <point x="71.5" y="37.0" />
+    </edge>
+    <edge source="SaloonRunner" target="Account">
+      <point x="-21.125" y="-25.5" />
+      <point x="1054.0833333333333" y="2130.0" />
+      <point x="837.7179067460315" y="2130.0" />
+      <point x="837.7179067460315" y="1807.0" />
+      <point x="805.5773809523808" y="1807.0" />
+      <point x="-65.33333333333337" y="81.5" />
+    </edge>
+    <edge source="Profession" target="java.lang.Enum">
+      <point x="0.0" y="-69.5" />
+      <point x="1623.5045758928568" y="502.0" />
+      <point x="1125.675" y="502.0" />
+      <point x="104.40000000000009" y="180.5" />
+    </edge>
+    <edge source="NameService" target="java.lang.Enum">
+      <point x="0.0" y="-146.5" />
+      <point x="720.4999999999999" y="512.0" />
+      <point x="1021.2749999999999" y="512.0" />
+      <point x="0.0" y="180.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="65.25" y="-180.5" />
+      <point x="1086.5249999999999" y="76.0" />
+      <point x="1098.2749999999999" y="76.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Service" target="GeneralNameService">
+      <point x="-83.0" y="-147.5" />
+      <point x="359.00435267857165" y="1098.0" />
+      <point x="336.0" y="1098.0" />
+      <point x="336.0" y="715.0" />
+      <point x="244.03571428571422" y="715.0" />
+      <point x="58.875" y="69.5" />
+    </edge>
+    <edge source="SaloonRunner" target="FullName">
+      <point x="63.375" y="-25.5" />
+      <point x="1138.5833333333333" y="2160.0" />
+      <point x="1522.4107142857142" y="2160.0" />
+      <point x="1522.4107142857142" y="1068.0" />
+      <point x="1511.83790922619" y="1068.0" />
+      <point x="50.33333333333326" y="69.5" />
+    </edge>
+    <edge source="SaloonRunner" target="Service">
+      <point x="-49.29166666666674" y="-25.5" />
+      <point x="1025.9166666666665" y="2150.0" />
+      <point x="224.33333333333337" y="2150.0" />
+      <point x="224.33333333333337" y="1443.0" />
+      <point x="248.33768601190502" y="1443.0" />
+      <point x="-193.66666666666663" y="147.5" />
+    </edge>
+    <edge source="SaloonRunner" target="GeneralNameService">
+      <point x="-77.45833333333337" y="-25.5" />
+      <point x="997.7499999999998" y="2170.0" />
+      <point x="0.0" y="2170.0" />
+      <point x="0.0" y="715.0" />
+      <point x="126.28571428571422" y="715.0" />
+      <point x="-58.875" y="69.5" />
+    </edge>
+    <edge source="SaloonRunner" target="Profession">
+      <point x="77.45833333333326" y="-25.5" />
+      <point x="1152.6666666666665" y="2170.0" />
+      <point x="1605.323028273809" y="2170.0" />
+      <point x="1605.323028273809" y="1098.0" />
+      <point x="1667.83790922619" y="1098.0" />
+      <point x="44.33333333333326" y="69.5" />
+    </edge>
+    <edge source="Service" target="NameService">
+      <point x="166.0" y="-147.5" />
+      <point x="608.0043526785716" y="1098.0" />
+      <point x="675.1666666666665" y="1098.0" />
+      <point x="-45.33333333333337" y="146.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-104.4" y="180.5" />
+      <point x="916.8749999999999" y="482.0" />
+      <point x="870.7749999999999" y="482.0" />
+      <point x="870.7749999999999" y="281.5" />
+      <point x="-130.5" y="-0.0" />
+    </edge>
+    <edge source="Specialist" target="Rating">
+      <point x="-80.28571428571422" y="-114.5" />
+      <point x="1291.125" y="1098.0" />
+      <point x="1298.4837425595235" y="1098.0" />
+      <point x="21.125" y="103.5" />
+    </edge>
+    <edge source="CategoryService" target="GeneralNameService">
+      <point x="-78.75" y="-59.5" />
+      <point x="89.25" y="725.0" />
+      <point x="165.53571428571422" y="725.0" />
+      <point x="-19.625" y="69.5" />
+    </edge>
+    <edge source="Order" target="Service">
+      <point x="-82.875" y="-147.0" />
+      <point x="1016.5357142857142" y="1443.0" />
+      <point x="442.00435267857165" y="1443.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-65.25" y="-180.5" />
+      <point x="956.0249999999999" y="76.0" />
+      <point x="944.2749999999999" y="76.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="User" target="Account">
+      <point x="-93.85714285714289" y="-136.5" />
+      <point x="945.1094742063493" y="1807.0" />
+      <point x="870.9107142857142" y="1807.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="GeneralNameService" target="java.lang.Enum">
+      <point x="0.0" y="-69.5" />
+      <point x="185.16071428571422" y="502.0" />
+      <point x="969.0749999999998" y="502.0" />
+      <point x="-52.200000000000045" y="180.5" />
+    </edge>
+    <edge source="SaloonRunner" target="Rating">
+      <point x="21.125" y="-25.5" />
+      <point x="1096.3333333333333" y="2130.0" />
+      <point x="1220.4107142857142" y="2130.0" />
+      <point x="1220.4107142857142" y="1098.0" />
+      <point x="1213.9837425595235" y="1098.0" />
+      <point x="-63.375" y="103.5" />
+    </edge>
+    <edge source="Service" target="CategoryService">
+      <point x="-249.0" y="-147.5" />
+      <point x="193.00435267857165" y="1098.0" />
+      <point x="168.0" y="1098.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="SaloonRunner" target="Specialist">
+      <point x="35.20833333333326" y="-25.5" />
+      <point x="1110.4166666666665" y="2140.0" />
+      <point x="1441.8094742063493" y="2140.0" />
+      <point x="1441.8094742063493" y="1443.0" />
+      <point x="1427.6107142857143" y="1443.0" />
+      <point x="56.2000000000001" y="114.5" />
+    </edge>
+    <edge source="Order" target="Specialist">
+      <point x="82.875" y="-147.0" />
+      <point x="1182.2857142857142" y="1443.0" />
+      <point x="1315.2107142857142" y="1443.0" />
+      <point x="-56.200000000000045" y="114.5" />
+    </edge>
+    <edge source="FullName" target="java.lang.Enum">
+      <point x="0.0" y="-69.5" />
+      <point x="1461.5045758928568" y="512.0" />
+      <point x="1073.475" y="512.0" />
+      <point x="52.200000000000045" y="180.5" />
+    </edge>
+    <edge source="User" target="Specialist">
+      <point x="93.85714285714289" y="-136.5" />
+      <point x="1132.823759920635" y="1807.0" />
+      <point x="1416.0230282738091" y="1807.0" />
+      <point x="1416.0230282738091" y="1443.0" />
+      <point x="1371.4107142857142" y="1443.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7066929133858267" x="650.0222841225627" y="347.0" />
+  <SelectedNodes>
+    <node>Account</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
